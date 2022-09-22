@@ -1,0 +1,9 @@
+.labelStyles  {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.inputStyles {
+  display: inline-block;
+}
