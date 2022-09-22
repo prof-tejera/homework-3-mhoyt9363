@@ -1,0 +1,30 @@
+
+#items {
+    border-style: none;
+}
+
+.radioSelections
+label {
+    display: inline-flex;
+    margin-right: 15px;
+    padding: 3px;
+    border: 2px solid blue;
+}
+
+.radioSelections
+label:hover {
+    border: 0px;
+    padding: 5px;
+}
+
+.radioSelections 
+input[type="radio"]:checked+label {
+    background-color: aquamarine;
+    color: blue;
+    font-weight: bold;
+}
+
+.radioSelections
+input {
+    display: none;
+}

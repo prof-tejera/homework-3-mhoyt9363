@@ -4,6 +4,10 @@
   margin-bottom: 50px;
 }
 
+.App-component:hover {
+  background-color: lightgray;
+}
+
 .App-header {
   display: flex;
   flex-direction: column;

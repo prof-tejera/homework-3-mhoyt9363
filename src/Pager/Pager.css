@@ -1,0 +1,18 @@
+
+.displayPages {
+    background-color: lightblue;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20%;
+}
+
+.displayPages
+span {
+    padding: 5px;
+    text-align: center;
+}
+
+#pageup:hover,
+#pagedown:hover {
+    background-color: mediumslateblue;
+}

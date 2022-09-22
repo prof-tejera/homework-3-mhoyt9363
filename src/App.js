@@ -5,6 +5,14 @@ import RadioButtons from "RadioButtons/RadioButtons";
 import "./App.css";
 
 const App = () => {
+// used for radio buttons as the selections
+const selections = ["Pear", "Apple", "Orange", "Bannana"]; 
+// used for the pager panel as the starting point
+const pagerStatus = { 
+  startPage: '1',             // starting page of the display
+  endPage: '10',              // ending (last) page of the dispay
+  activePage: '1',            // where the active page is now
+}
   return (
     <div>
       <div className="App-component">
@@ -17,23 +25,23 @@ const App = () => {
       </div>
 
       <div className="App-component">
-        <header className="App-header">Login form component (TODO)</header>
+        <header className="App-header">Login form component</header>
         <div className="App-content">
           <LoginForm />
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Pager component (TODO)</header>
+        <header className="App-header">Pager component</header>
         <div className="App-content">
-          <Pager />
+          <Pager pagerStatus = {pagerStatus}/>
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Radio Buttons component (TODO)</header>
+        <header className="App-header">Radio Buttons component</header>
         <div className="App-content">
-          <RadioButtons />
+          <RadioButtons selections={selections}/>
         </div>
       </div>
     </div>
